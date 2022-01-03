@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.family=Trirong:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rokkitt:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body{
+    font-family: 'Rokkitt', serif;
+}
+h1,h2,h3,h4,h5{
+    font-family: 'Triron';
+}
+*{margin: 0;padding:0 ;}
+section{
+    margin-bottom: 50px;;
+}
+
+.background {
+    background: #e0d7d7c9;
+}
+.container {
+    width: 900px;
+    margin: auto;
+    padding: 0px 20px;
+}
+
+.topbarwrapper {
+    overflow: hidden;
+}
+
+.phone {
+    width: 200px;
+    float: left;
+    padding: 7px 10px;
+    border-left: 1px solid #bdb3b3;
+    border-right: 1px solid #bdb3b3;
+    margin-left: 60px;
+}
+
+.email {
+    width: 340px;
+    float: left;
+    padding: 7px 10px;
+    border-left: 1px solid #bdb3b3;
+    border-right: 1px solid #bdb3b3;
+}
+.social {
+    width: 220px;
+    float: left;
+    /* padding:10px 10px; */
+}
+.social a {
+    display: block;
+    float: left;
+    padding: 7px 16px;
+    border-right: 1px solid #bdb3b3;
+    transition: 0.5s;
+    color: black;
+}
+.social a:hover{
+    color: orangered;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.phone i {
+    color: orangered;
+}
+.email i{
+    color: orangered;
+}
+.mainmenu {
+    background: #f1f1f1a3;
+}
+.primarywrapper {
+    overflow: hidden;
+}
+
+.logo {
+    width: 220px;
+    float: left;
+    display: block;
+}
+
+.logo img {
+    height: 60px;
+    padding: 0px 113px;
+}
+
+.menu {
+    width: 530px;
+    float: left;
+    display: block;
+    padding-left: 60px;
+    padding-top: 25px;
+}
+
+ul.menulist li {
+    /* width: 65px; */
+    float: left;
+    list-style: none;
+    display: block;
+    padding: 0px 10px;
+}
+
+ul.menulist li a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 8px;
+    transition: 0.5s;
+}
+ul.menulist li a i{
+    font-size: 13px;
+    padding-top: 5px;
+}
+ul.menulist li a:hover{
+    color: orangered;
+    cursor: pointer;
+
+}
+
+section#slider {
+    background:linear-gradient(#00000078,#00000078),url(../20180511_122003.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.slidecontent h1 {
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    word-spacing: 5px;
+    line-height: 1.5;
+    width: 350px;
+    display: block;
+    padding-top: 100px;
+}
+
+.slidecontent p {
+    color: white;
+    width: 401px;
+    padding: 30px 0px;
+    display: block;
+    line-height: 1.2;
+    font-size: 17px;
+    font-weight: 400;
+    word-spacing: -1.5px;
+}
+.slidecontent button {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: bold;
+    word-spacing: 0.5px;
+    background: #ec3a19;
+    padding: 10px;
+    margin-bottom: 80px;
+    margin-top: 15px;
+    border-radius: 6px;
+    border: none;
+    transition: 0.4s;
+}
+.slidecontent button:hover{
+    background: slategrey;
+    color: snow;
+    cursor: pointer;
+}
+
+section#serves {
+    background: #a38d650d;
+}
+.sboxwreper{
+    overflow: hidden;
+    text-align: center;
+}
+.sboxicon i {
+    padding: 26px 0px;
+    font-size: 60px;
+}
+
+.sboxicon {
+    width: 100%;
+    /* text-align: center; */
+    color: #ff5e23;
+}
+.singlebox {
+    width: 200px;
+    float: left;
+    margin-right: 30px;
+    background: #e9ececa8;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    overflow: hidden;
+    transition: 0.5s;
+}
+.singlebox:hover{
+    background: slategrey;
+    color: snow;
+}
+
+.sboxdec p {
+    padding: 20px 0px;
+}
+
+.sboxtitle {
+    padding: 0px 26px;
+}
+.singlebox:hover .sboxlink a{
+    color: snow;
+    cursor: pointer;
+}
+.sboxlink a {text-decoration: none;font-size: 15px;}
+.sboxlink a i{
+    font-size: 9px;
+    padding: 0px 3px;
+}
+
+.sboxlink {
+    margin-bottom: 30px;
+}
+.sboxwreper :last-child{
+    margin-right: 0px;
+}
+.teamimage img {
+    width: 100%;
+}
+
+.teamimage {
+    width: 45%;
+    float: left;
+    margin-right: 41px;
+}
+
+.teamdetails {
+    width: 450px;
+    float: left;
+}
+
+ul.leftul {
+    width: 60%;
+    float: left;
+}
+
+ul.rightul {
+    width: 40%;
+    float: left;
+}
+
+.teampasality ul li {
+    list-style: none;
+    padding: 13px 0px;
+}
+
+.teampasality ul li a {
+    text-decoration: none;
+    color: black;
+    transition: 0.5s;
+}
+.teampasality ul li a:hover{
+    color: tomato;
+}
+.teampasality ul li a:hover i{
+    color: tomato;
+
+}
+.teampasality ul li a i {
+    font-size: 10px;
+    color: #00000082;
+    padding-right: 4px;
+    transition: 0.5s;
+}
+
+.ourcontent {
+    overflow: hidden;
+}
+
+.teampasality {
+    overflow: hidden;
+}
+
+.tiltedec p {
+    padding-top: 10px;
+    padding-bottom: 5px;
+    width: 95%;
+    color: #443d3d;
+}
+
+.cntctbtn a {
+    text-decoration: none;
+    background: #ff5738;
+    color: white;
+    padding: 8px 11px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    font-size: 12px;
+    transition: 0.5s;
+}
+
+.cntctbtn {
+    /* overflow: hidden; */
+    padding-top: 12px;
+}
+.cntctbtn a:hover{
+    background: slategrey;
+    color: snow;
+    cursor: pointer;
+    
+}
